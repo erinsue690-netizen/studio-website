@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <title>STUDIO | Our Team & Community</title>
+
+  <link rel="stylesheet" href="style.css?v=7">
+  <script src="script.js?v=7" defer></script>
+</head>
+<body>
+
+<div class="site-shell">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <a href="#" class="brand" id="brandLink">
+      <span class="brand-icon">✦</span>
+      <span>STUDIO<span class="brand-dot">.</span></span>
+    </a>
+    <span class="header-label">EST. 2026</span>
+  </header>
+
+  <main>
+
+    <!-- INTRO PAGE -->
+    <section id="introPage" class="page intro-page active">
+      <div class="intro-content">
+        <span class="eyebrow">
+          WELCOME TO OUR CREATIVE SPACE
+        </span>
+
+        <h1>
+          We turn ideas into
+          <span class="gradient-text">experiences.</span>
+        </h1>
+
+        <p>We create. We develop. We build.</p>
+
+        <button id="enterBtn" class="primary-btn">
+          ENTER STUDIO <span>↗</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- MAIN PAGE -->
+    <section id="homePage" class="page content-page" hidden>
+      <div class="section-heading">
+        <span class="section-kicker">GET TO KNOW US</span>
+        <h2>The people behind the project.</h2>
+        <p>
+          Meet our team, discover our story,
+          and join our communities.
+        </p>
+      </div>
+
+      <div class="navigation-grid">
+
+        <button class="nav-card developers-card"
+                data-target="developers">
+          <span class="card-icon">⌘</span>
+          <span class="card-title">Developers</span>
+          <span class="card-footer">
+            Meet the developers <span>↗</span>
+          </span>
+        </button>
+
+        <button class="nav-card staff-card"
+                data-target="staff">
+          <span class="card-icon">♙</span>
+          <span class="card-title">Staff Team</span>
+          <span class="card-footer">
+            Meet the staff <span>↗</span>
+          </span>
+        </button>
+
+        <button class="nav-card community-nav-card"
+                data-target="community">
+          <span class="card-icon">✧</span>
+          <span class="card-title">Our Community</span>
+          <span class="card-footer">
+            Explore our Roblox groups <span>↗</span>
+          </span>
+        </button>
+
+        <button class="nav-card about-card"
+                data-target="about">
+          <span class="card-icon">✦</span>
+          <span class="card-title">About Us</span>
+          <span class="card-footer">
+            Get to know us <span>↗</span>
+          </span>
+        </button>
+
+      </div>
+    </section>
+
+    <!-- CINEMATIC TRANSITION -->
+    <section id="transitionPage"
+             class="page transition-page" hidden>
+      <p>INTRODUCING</p>
+      <h2 id="transitionTitle">OUR TEAM</h2>
+      <div class="transition-line"></div>
+    </section>
+
+    <!-- DEVELOPERS AND STAFF -->
+    <section id="membersPage" class="page content-page" hidden>
+      <button class="back-btn" data-back="home">
+        ← Back to home
+      </button>
+
+      <div class="section-heading">
+        <span class="section-kicker">MEET THE PEOPLE</span>
+        <h2 id="membersTitle">Developers</h2>
+        <p id="membersDescription"></p>
+      </div>
+
+      <div id="membersGrid" class="members-grid"></div>
+    </section>
+
+    <!-- ROBLOX COMMUNITIES -->
+    <section id="communityPage" class="page content-page" hidden>
+      <button class="back-btn" data-back="home">
+        ← Back to home
+      </button>
+
+      <div class="section-heading">
+        <span class="section-kicker">CONNECT WITH US</span>
+        <h2>Our Community</h2>
+        <p>
+          Our game is currently in development.
+          Join our Roblox communities for updates,
+          announcements, and sneak peeks!
+        </p>
+      </div>
+
+      <div id="communityGrid" class="community-grid"></div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="aboutPage" class="page content-page" hidden>
+      <button class="back-btn" data-back="home">
+        ← Back to home
+      </button>
+
+      <div class="section-heading">
+        <span class="section-kicker">WHO WE ARE</span>
+        <h2>About Us</h2>
+        <p>Get to know the team behind our creations.</p>
+      </div>
+
+      <div class="about-container">
+        <span class="about-label">OUR STORY</span>
+
+        <h3>Building experiences together.</h3>
+
+        <p>
+          We are a passionate team of Roblox developers
+          and staff dedicated to creating engaging,
+          creative, and memorable gaming experiences.
+        </p>
+
+        <p>
+          Our team combines creativity, teamwork,
+          and innovation to bring new ideas to life.
+          We are currently working on our upcoming
+          Roblox game and building a community where
+          players can connect, share ideas, and grow together.
+        </p>
+
+        <div class="about-status">
+          <span class="status-dot"></span>
+          Our game is currently in development
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 STUDIO.</span>
+    <span>CREATED WITH PURPOSE ✦</span>
+  </footer>
+
+</div>
+
+</body>
+</html>
